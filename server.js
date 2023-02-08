@@ -20,8 +20,8 @@ server.use((req, res, next) => {
 })
 
 server.use(router)
-server.listen(process.env.PORT || 3001, () => {
-    console.log('JSON Server is running in '+process.env.PORT || 3001)
+server.listen(3001, () => {
+    console.log('JSON Server is running in 3001')
 })
 
 // Export the Server API
