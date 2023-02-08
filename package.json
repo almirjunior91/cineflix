@@ -4,9 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development node server.js",
-    "start": "NODE_ENV=production node server.js",
-    "watch": "json-server db.json --port=3001",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
