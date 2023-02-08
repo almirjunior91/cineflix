@@ -5,8 +5,8 @@ import axios from "axios";
 
 import "./MovieGrid.css";
 
-const moviesURL = "http://localhost:3001/movies";
-const topRatedURL = "http://localhost:3001/top-rated"
+const moviesURL = "https://cineflix-eight.vercel.app/movies";
+const topRatedURL = "https://cineflix-eight.vercel.app/top-rated"
 
 const Home = () => {
   const [topMovies, setTopMovies] = useState([]);

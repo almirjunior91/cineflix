@@ -14,7 +14,7 @@ import axios from "axios";
 
 import "./Movie.css";
 
-const moviesURL = "http://localhost:3001/movies";
+const moviesURL = "https://cineflix-eight.vercel.app/movies";
 
 const Movie = () => {
   const { id } = useParams();
@@ -36,7 +36,7 @@ const Movie = () => {
   };
 
   useEffect(() => {
-    const movieUrl = 'http://localhost:3001/movies/'+id;
+    const movieUrl = 'https://cineflix-eight.vercel.app/movies/'+id;
     getMovie(movieUrl);
   }, []);
 

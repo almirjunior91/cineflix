@@ -22,7 +22,7 @@ const Search = () => {
   };
 
   useEffect(() => {
-    const searchWithQueryURL = `http://localhost:3001/movies?title_like=${query}`;
+    const searchWithQueryURL = `https://cineflix-eight.vercel.app/movies?title_like=${query}`;
     getSearchedMovies(searchWithQueryURL);
   }, [query]);
 
